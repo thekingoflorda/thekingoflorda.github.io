@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'LAS AMERICAS';
+    src: url('LasAmericas.otf');
+}
+
+@font-face {
+    font-family: Juicy Fills;
+    src: url("Juicy\ Fills.otf");
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: lightblue;
+    color: black;
+    font-family: 'Juicy Fills';
+    font-size: 2.5rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.LogoText {
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    margin-left: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-family: 'LAS AMERICAS';
+    color: black;
+    margin-left: 2rem;
+}
+
+.languagePill{
+    background-color: lightblue;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    font-size: 1rem;
+    font-family: 'juicy fills';
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    display:flex;
+    align-items: center;
+    width:fit-content;
+    cursor: pointer;
+
+}
+
+.UKflag {
+    width:50px;
+    border-radius: 100px;
+}
+
+.languageSwitcher{
+    margin-left: 1rem;
+}
+
+.pillHolder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px;
+}
+
+.description {
+    font-size: 1.5rem;
+    margin: 1rem;
+    background-color: lightblue;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: "juicy fills";
+}
+
+
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .languagePill {
+        font-size: 1rem;
+    }
+
+    .text {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    }
+
+    .logo {
+        width: 50px;
+        padding: 0;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+}
