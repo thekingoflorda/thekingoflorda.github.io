@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    overflow-wrap: break-word;
 }
 
 @font-face {
@@ -13,15 +14,22 @@ body {
     src: url("Juicy\ Fills.otf");
 }
 
-nav {
+.topNav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0rem 2rem;
     background-color: lightblue;
     color: black;
     font-family: 'Juicy Fills';
     font-size: 2.5rem;
+}
+
+.bottomNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
 }
 
 .logo {
@@ -47,12 +55,13 @@ nav {
 .languagePill{
     background-color: lightblue;
     color: black;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 100px;
     font-size: 1rem;
     font-family: 'juicy fills';
     font-size: 1.5rem;
     margin-right: 2rem;
+    margin-top:0.3rem;
     display:flex;
     align-items: center;
     width:fit-content;
@@ -92,8 +101,13 @@ h2 {
     font-family: "juicy fills";
 }
 
+h3 {
+    font-family: "juicy fills";
+}
+
 .video {
     width: 100%;
+    max-width: 600px;
     height: auto;
 }
 
