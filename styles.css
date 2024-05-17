@@ -16,9 +16,9 @@ body {
 
 .topNav {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0rem 2rem;
+    padding: 0.3rem 2rem;
     background-color: lightblue;
     color: black;
     font-family: 'Juicy Fills';
@@ -39,10 +39,6 @@ body {
 .LogoText {
     display: flex;
     align-items: center;
-}
-
-.text {
-    margin-left: 2rem;
 }
 
 .title {
